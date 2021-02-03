@@ -1,0 +1,48 @@
+.container {
+  width: 100%;
+
+}
+
+.mat-tool {
+  display: flex;
+  justify-content: space-between;
+  padding: 3em 4em;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+
+.mat-field {
+  border: 1px solid black;
+  padding: 0 6em;
+  border-radius: 1em;
+  width: 100%;
+}
+
+::ng-deep .mat-form-field-underline {
+  display: none;
+}
+
+
+.contries{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin: 0 3em;
+}
+
+.example-card {
+  margin-top: 3em;
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-size: cover;
+}
+.card-content {
+  padding-left: 1em;
+}
