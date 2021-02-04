@@ -10,6 +10,7 @@ import { ContriesComponent } from './component/contries/contries.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { CountriesService } from './shared/countries.service';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CountriesService } from './shared/countries.service';
     BrowserAnimationsModule,
     MaterialModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    FlexLayoutModule
   ],
   providers: [CountriesService],
   bootstrap: [AppComponent]

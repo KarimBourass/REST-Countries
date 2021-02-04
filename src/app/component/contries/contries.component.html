@@ -2,12 +2,12 @@
     <mat-toolbar color="primary" class="mat-tool">
 
         <form class="example-form" #contryForm="ngForm" (ngSubmit)="searchContry(contryForm)">
-            <mat-form-field class="mat-field">
+            <div class="mat-field">
                 <input matInput placeholder="Contry.." name="contry" ngModel>
-                <button mat-mini-fab color="primary" type="submit">
-                    <mat-icon matSuffix>search</mat-icon>
-                </button>
-            </mat-form-field>
+            </div>
+            <button mat-mini-fab color="primary" type="submit">
+                <mat-icon matSuffix>search</mat-icon>
+            </button>
         </form>
 
         <mat-form-field appearance="fill">

@@ -1,7 +1,8 @@
-<mat-toolbar color="primary" >
+<mat-toolbar color="primary">
     <span>Where in the world ?</span>
     <span class="example-spacer"></span>
     <button mat-stroked-button (click)="toggleTheme()">
-       <mat-icon class="icon">{{themeIcon}}</mat-icon> {{theme}}
+        <mat-icon class="icon">{{themeIcon}}</mat-icon> 
+        <span fxShow fxHide.lt-sm>{{theme}}</span>
     </button>
 </mat-toolbar>
