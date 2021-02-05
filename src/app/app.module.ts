@@ -11,12 +11,14 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { CountriesService } from './shared/countries.service';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { ContryComponent } from './component/contry/contry.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     ContriesComponent,
+    ContryComponent,
     
   ],
   imports: [

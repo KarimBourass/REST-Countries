@@ -23,10 +23,11 @@ export class CountriesService {
     return this.http.get<Contry[]>(this.baseURL + '/region/'+region);
   }
 
-  getContriesByname(name: string): Observable<Contry[]> {
-    return this.http.get<Contry[]>(this.baseURL + '/name/'+name+'?fullText=true');
 
+  getContriesByName(name: string): Observable<Contry[]> {
+    return this.http.get<Contry[]>(this.baseURL+'/name/'+name+'?fullText=true')
   }
+
 
 
 

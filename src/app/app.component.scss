@@ -1,6 +1,6 @@
 .container{
     display: grid;
-    grid-template-rows: min-content min-content 1fr;
+    grid-template-rows: min-content 1fr;
     
 }
 html, body, app-root, .app-frame {
@@ -8,3 +8,4 @@ html, body, app-root, .app-frame {
     box-sizing: border-box;
     color: #e0e0e0;
 }
+
