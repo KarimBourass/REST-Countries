@@ -2,9 +2,9 @@
 These is my realisation of the challenge Rest Countries you can visit the website for more challenges https://www.frontendmentor.io/challenges
 ## Some photo from the app
 ### Light mode
-![](src/assets/images/light.PNG)
+![](src/assets/images/Light.PNG)
 ### Dark mode
-![](src/assets/images/dark.PNG)
+![](src/assets/images/Dark.PNG)
 ### Tablet 
 ![](src/assets/images/mobile.PNG)
 ### mobile
