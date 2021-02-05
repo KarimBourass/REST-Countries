@@ -1,4 +1,14 @@
 # RESTCountries
+These is my realisation of the challenge Rest Countries you can visit the website for more challenges https://www.frontendmentor.io/challenges
+## Some photo from the app
+### Light mode
+![](src/assets/images/light.PNG)
+### Dark mode
+![](src/assets/images/dark.PNG)
+### Tablet 
+![](src/assets/images/mobile.PNG)
+### mobile
+![](src/assets/images/realmobile.PNG)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
 
