@@ -1,11 +1,5 @@
-.container{
-    display: grid;
-    grid-template-rows: min-content 1fr;
-    
+.container {
+  min-height: 100vh;
+  display: grid;
+  max-height: max-content;
 }
-html, body, app-root, .app-frame {
-    margin: 0;
-    box-sizing: border-box;
-    color: #e0e0e0;
-}
-
